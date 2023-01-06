@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(163, 231, 208);
+}
+
+td a{
+    font-weight: bold;
+    text-decoration: underline 2px;
+}
+
+h1{
+    background-color: rgb(212, 41, 41);
+    text-align: center;
+}
+
+#our-food-menu{
+    background-color: rgb(163, 231, 208);
+    text-align: left;
+}
+
+li{
+font-weight: bold;
+}
