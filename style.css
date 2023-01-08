@@ -1,22 +1,141 @@
 body{
-    background-color: rgb(163, 231, 208);
+    background-color: #d8cfd0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+    }
+
+.header{
+    background-color:#B1A6A4;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #413f3d;
 }
 
-td a{
+
+
+.head{
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 15px;
+    color: #413f3d;
+    margin-left: 20px;
     font-weight: bold;
-    text-decoration: underline 2px;
+    text-align: right;
+    text-decoration: underline #d8cfd0;
 }
 
-h1{
-    background-color: rgb(212, 41, 41);
-    text-align: center;
+.head:hover{
+    color: #B1A6A4;
+    font-weight: bolder; 
+    font-style: italic;
+    text-decoration: underline ;
 }
 
-#our-food-menu{
-    background-color: rgb(163, 231, 208);
-    text-align: left;
-}
 
-li{
-font-weight: bold;
-}
+/* Hero */
+
+#hero{
+    background-image: url("Image/food.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10%;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: #413f3d;
+    box-shadow: 2px 2px 2px 2px #413f3d;
+    }
+
+    .hero_dis{
+        color: #d8cfd0;
+        margin: 2%;
+        
+    }
+
+    .font{
+        font-weight: bold;
+
+    }
+
+    .main_font{
+        font-family: 'Courier New', Courier, monospace;
+    }
+   
+    .about{
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: #B1A6A4;
+        display:inline-block ;
+        box-shadow: 2px 2px 2px 2px #413f3d;
+        text-align: center;
+        
+    }
+
+    .about_2{
+        text-align: center;
+        color: #413f3d;
+    }
+
+    .food{
+        font-weight: bolder;
+        text-decoration: none;
+        padding: 15px;
+        color: #413f3d;
+        margin-left: 20px;
+        font-weight: bold;
+        text-align: right;
+        text-decoration: underline #d8cfd0;
+        }
+
+        .food:hover{
+            color: #B1A6A4;
+            font-weight: bolder; 
+            font-style: italic;
+            text-decoration: underline ;
+           
+        }
+
+        .food_head{
+            background-color:#B1A6A4;
+            padding: 20px;
+            box-shadow: 2px 2px 2px 2px #413f3d;
+            display: inline-block;
+        }
+
+        ul{
+            padding-right: 50px;
+            /* box-shadow: 2px 2px 2px 2px #413f3d; */
+            background-color: #B1A6A4;
+            display: inline-block;
+        }   
+
+        li{
+            list-style-type: square;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        button{
+
+            margin: 20px;
+            font-weight: bolder;
+        }
+
+        table{
+            background-color: #d8cfd0;
+            
+        }
+
+        .deal_table{
+            background-color: #B1A6A4;
+            border: 2px solid #413f3d;
+            margin-left: 850px;
+        }
+        
+        th{
+            text-align: left;
+            padding: 8px;
+        }
+
+        .text{
+            text-align: center;
+        }
