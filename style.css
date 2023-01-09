@@ -1,4 +1,5 @@
 body{
+    width:100%;
     background-color: #d8cfd0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     
@@ -8,6 +9,7 @@ body{
     background-color:#B1A6A4;
     padding: 20px;
     box-shadow: 2px 2px 2px 2px #413f3d;
+    width:100%;
 }
 
 
@@ -21,6 +23,7 @@ body{
     font-weight: bold;
     text-align: right;
     text-decoration: underline #d8cfd0;
+    width:100%;
 }
 
 .head:hover{
@@ -28,6 +31,8 @@ body{
     font-weight: bolder; 
     font-style: italic;
     text-decoration: underline ;
+    width:100%;
+    
 }
 
 
@@ -48,6 +53,7 @@ body{
     .hero_dis{
         color: #d8cfd0;
         margin: 2%;
+        width:100%;
         
     }
 
@@ -122,13 +128,14 @@ body{
 
         table{
             background-color: #d8cfd0;
+            width: auto;
             
         }
 
         .deal_table{
             background-color: #B1A6A4;
             border: 2px solid #413f3d;
-            margin-left: 850px;
+            margin-left: 45px;
         }
         
         th{
@@ -138,4 +145,7 @@ body{
 
         .text{
             text-align: center;
+        }
+        input{
+            margin-right: -17px;
         }
